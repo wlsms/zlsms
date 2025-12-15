@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 60px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: none;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .image-wrapper {
+            background: #ffffff;
+            overflow: visible;
+            transition: all 0.4s ease;
+        }
+
+        .image-wrapper:hover {
+            transform: scale(1.02);
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 30px 15px;
+            }
+
+            .header h1 {
+                font-size: 2.5em;
+            }
+
+            .header p {
+                font-size: 1em;
+            }
+
+            .gallery {
+                gap: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PORTFOLIO</h1>
+            <p>일러스트 작품 모음</p>
+        </div>
+
+        <div class="gallery">
+            <div class="image-wrapper">
+                <img src="image/i16.jpg" alt="Portfolio Image 16">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i1.jpg" alt="Portfolio Image 1">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i2.jpg" alt="Portfolio Image 2">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i3.jpg" alt="Portfolio Image 3">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i4.jpg" alt="Portfolio Image 4">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i5.jpg" alt="Portfolio Image 5">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i6.jpg" alt="Portfolio Image 6">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i7.jpg" alt="Portfolio Image 7">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i8.jpg" alt="Portfolio Image 8">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i9.jpg" alt="Portfolio Image 9">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i10.jpg" alt="Portfolio Image 10">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i11.jpg" alt="Portfolio Image 11">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i12.jpg" alt="Portfolio Image 12">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i13.jpg" alt="Portfolio Image 13">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i14.jpg" alt="Portfolio Image 14">
+            </div>
+            <div class="image-wrapper">
+                <img src="image/i15.jpg" alt="Portfolio Image 15">
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
